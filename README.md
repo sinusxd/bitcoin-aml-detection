@@ -94,7 +94,8 @@ _Раздел будет дополняться по ходу проекта._
 
 ```bash
 git clone https://github.com/sinusxd/bitcoin-aml-detection.git
-TODO: заполнить
+cd bitcoin-aml-detection
+uv sync
 ```
 
 ## Полезные ссылки

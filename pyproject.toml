@@ -1,0 +1,14 @@
+[project]
+name = "bitcoin-aml-detection"
+version = "0.1.0"
+description = "Binary classification of suspicious Bitcoin transactions (AML) on the Elliptic dataset"
+readme = "README.md"
+requires-python = ">=3.10.4,<3.11"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+required-version = ">=0.12"
