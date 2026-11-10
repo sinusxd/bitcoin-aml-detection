@@ -111,8 +111,23 @@ edges = load_edges()  # 234 355 рёбер: txId1 -> txId2
 ## Структура репозитория
 
 ```
-TODO (пока ничего нет)
+bitcoin-aml-detection/
+├── notebooks/
+│   ├── 02_eda.ipynb          # итоговый EDA (чекпойнт 2)
+│   └── eda_parts/            # отдельные части EDA, из которых собран итоговый ноутбук
+├── reports/
+│   └── on_practical_significance.pdf
+├── src/bitcoin_aml_detection/
+│   └── data.py               # загрузка датасета Elliptic
+├── pyproject.toml
+└── uv.lock
 ```
+
+**EDA:** [`notebooks/02_eda.ipynb`](notebooks/02_eda.ipynb). Качество данных, метки и временной дрейф,
+анализ и отбор признаков, общие выводы.
+
+**Практическая значимость проекта:**
+[`reports/on_practical_significance.pdf`](reports/on_practical_significance.pdf).
 
 ## Быстрый старт
 
