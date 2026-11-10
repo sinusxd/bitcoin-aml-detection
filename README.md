@@ -126,6 +126,9 @@ bitcoin-aml-detection/
 **EDA:** [`notebooks/02_eda.ipynb`](notebooks/02_eda.ipynb). Качество данных, метки и временной дрейф,
 анализ и отбор признаков, общие выводы.
 
+**Практическая значимость проекта:**
+[`reports/on_practical_significance.pdf`](reports/on_practical_significance.pdf).
+
 ## Быстрый старт
 
 _Раздел будет дополняться по ходу проекта._
